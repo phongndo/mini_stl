@@ -11,6 +11,7 @@ Implemented today:
 
 - `DynamicArray<T>` in `include/dynamic_array.hpp`
 - `Array<T, N>` in `include/array.hpp`
+- `UnorderedMap<Key, T>` in `include/unordered_map.hpp`
 
 Scaffolded and planned:
 
@@ -22,7 +23,6 @@ Scaffolded and planned:
 - `queue`
 - `set`
 - `stack`
-- `unordered_map`
 
 This repository does not try to fully match `std::*` yet. The goal is a small,
 readable subset that can be extended incrementally.
